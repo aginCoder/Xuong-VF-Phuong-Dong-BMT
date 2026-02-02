@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xưởng Dịch Vụ Ô Tô Phương Đông</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo-section">
+                        <a href="#home"><img src="image/logo.png"
+                                alt="Logo Phương Đông" class="logo"></a>
+                        <span class="brand-name">Xưởng Dịch Vụ Taxi Ô Tô Vinfast
+                            Phương Đông</span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link">Trang Chủ</a></li>
+                        <li><a href="#services" class="nav-link">Dịch
+                                Vụ</a></li>
+                        <li><a href="#about" class="nav-link">Giới
+                                thiệu</a></li>
+                        <li><a href="#contact" class="nav-link">Liên Hệ</a></li>
+                        <li><a href="#" class="nav-link admin-btn"
+                                onclick="openLoginModal(); return false;">Quản
+                                Lý</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header/Banner -->
+        <header id="home" class="header">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-content">
+                        <h1 id="headerTitleDisplay"></h1>
+                        <p class="header-subtitle" id="headerSubtitle"></p>
+                        <a class="cta-button" href="#contact">Liên Hệ Ngay</a>
+                    </div>
+                    <div class="header-image">
+                        <img id="headerImage" src="image/poster xưởng.png"
+                            alt="Xưởng dịch vụ ô tô Phương Đông"
+                            class="header-img">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Dịch Vụ Của Chúng Tôi</h2>
+                <p class="section-subtitle" id="servicesSubtitle">Cung cấp các
+                    dịch vụ chất lượng cao cho xe ô tô của bạn</p>
+
+                <div class="services-grid" id="servicesGrid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img id="serviceImg1" src="image/2.jpg"
+                                alt="Sửa Chữa">
+                        </div>
+                        <h3>Sửa Chữa</h3>
+                        <p>Chuyên xử lý các lỗi thường gặp trên xe Taxi VinFast:
+                            động cơ – điện, điện tử – hệ thống pin – phanh –
+                            điều hòa – gầm bệ.
+                            Chẩn đoán đúng lỗi, sửa nhanh, không làm thừa –
+                            không đội giá.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img id="serviceImg2" src="image/1.jpg"
+                                alt="Bảo Dưỡng">
+                        </div>
+                        <h3>Bảo Dưỡng</h3>
+                        <p>Bảo dưỡng định kỳ theo cường độ xe chạy taxi, giúp:
+
+                            Giảm hỏng vặt
+
+                            Tiết kiệm điện/nhiên liệu
+
+                            Kéo dài tuổi thọ xe
+
+                            Phù hợp cho xe chạy Grab, Xanh SM, xe hợp tác xã,
+                            đội xe doanh nghiệp</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img id="serviceImg3" src="image/4.jpg"
+                                alt="Nâng Cấp">
+                        </div>
+                        <h3>Nâng Cấp</h3>
+                        <p>Nâng cấp hệ thống và tính năng cho xePhục hồi xe Taxi
+                            VinFast đã chạy nhiều km:
+
+                            Máy – gầm – phanh
+
+                            Nội thất – ngoại thất
+
+                            Tối ưu vận hành như xe mới
+
+                            Giải pháp tiết kiệm hơn mua xe mới, hiệu quả cao cho
+                            chủ xe.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img id="serviceImg4" src="image/5.jpg"
+                                alt="Sơn Ô Tô">
+                        </div>
+                        <h3>Sơn Ô Tô</h3>
+                        <p>Sơn dặm, sơn quây, làm đồng xe taxi bị va quẹt, trầy
+                            xước.
+                            Thi công nhanh – màu chuẩn – ưu tiên xe quay lại
+                            chạy sớm.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <h2>Về Chúng Tôi</h2>
+                        <p>Xưởng Dịch Vụ Ô Tô Phương Đông là một trong những cơ
+                            sở sửa chữa ô tô hàng đầu tại khu vực, với kinh
+                            nghiệm phục vụ khách hàng hơn 10 năm.</p>
+
+                        <h4>Tại Sao Chọn Phương Đông?</h4>
+                        <ul class="about-list">
+                            <li>Đội ngũ thợ lành nghề, có chứng chỉ quốc tế</li>
+                            <li>Sử dụng linh kiện chính hãng, đảm bảo chất
+                                lượng</li>
+                            <li>Dịch vụ bảo hành toàn diện cho mọi công
+                                việc</li>
+                            <li>Giá cả cạnh tranh, minh bạch không phát
+                                sinh</li>
+                            <li>Trang thiết bị hiện đại, đạt chuẩn quốc tế</li>
+                        </ul>
+
+                        <p>Chúng tôi cam kết mang đến dịch vụ chất lượng cao
+                            nhất, giúp xe của bạn luôn hoạt động tốt và an
+                            toàn.</p>
+                    </div>
+                    <div class="about-image">
+                        <img id="aboutImage" src="image/2.jpg"
+                            alt="Về Xưởng Phương Đông" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Thư Viện Ảnh</h2>
+                <p class="section-subtitle" id="gallerySubtitle">Xem hình ảnh
+                    các dự án của chúng tôi</p>
+
+                <div id="galleryCarousel" class="gallery-carousel">
+                    <!-- Carousel will be populated by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Liên Hệ Với Chúng Tôi</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Điện Thoại</h4>
+                                <p id="contactPhone1">0879 444 555</p>
+                                <p id="contactPhone2">0888 623 623</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Địa Chỉ</h4>
+                                <p id="contactAddress">569 Lê Duẩn, Phường Buôn
+                                    Ma Thuột, Đắk Lắk</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p id="contactEmail">phuongdong@email.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm"
+                        onsubmit="handleContactForm(event)">
+                        <input type="text" id="contactName"
+                            placeholder="Tên của bạn" required>
+                        <input type="email" id="contactEmail_input"
+                            placeholder="Email của bạn" required>
+                        <input type="text" id="contactSubject"
+                            placeholder="Chủ đề">
+                        <textarea id="contactMessage"
+                            placeholder="Tin nhắn của bạn" rows="5"
+                            required></textarea>
+                        <button type="submit" class="submit-btn">Gửi Tin
+                            Nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightboxImg" src alt>
+            <a class="prev" onclick="changeLightboxImage(-1)">&#10094;</a>
+            <a class="next" onclick="changeLightboxImage(1)">&#10095;</a>
+        </div>
+
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeLoginModal()">&times;</span>
+                <h2>Đăng Nhập Quản Lý</h2>
+                <form onsubmit="handleLogin(event)">
+                    <input type="text" placeholder="Tên người dùng"
+                        id="username" required>
+                    <input type="password" placeholder="Mật khẩu" id="password"
+                        required>
+                    <button type="submit">Đăng Nhập</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Admin Dashboard -->
+        <div id="adminDashboard" class="admin-dashboard" style="display: none;">
+            <div class="admin-header">
+                <h2>Bảng Điều Khiển Quản Lý</h2>
+                <button class="logout-btn" onclick="logout()">Đăng Xuất</button>
+            </div>
+
+            <div class="admin-container">
+                <!-- Tabs -->
+                <div class="admin-tabs">
+                    <button class="tab-btn active"
+                        onclick="switchTab('content')">Nội Dung Trang</button>
+                    <button class="tab-btn" onclick="switchTab('gallery')">Thư
+                        Viện Ảnh</button>
+                    <button class="tab-btn" onclick="switchTab('contact')">Thông
+                        Tin Liên Hệ</button>
+                </div>
+
+                <!-- Content Management -->
+                <div id="contentTab" class="tab-content active">
+                    <h3>Chỉnh Sửa Nội Dung Trang</h3>
+                    <div class="form-group">
+                        <label>Tiêu đề chính</label>
+                        <input type="text" id="headerTitle"
+                            placeholder="Nhập tiêu đề chính">
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh header (banner)</label>
+                        <input type="file" id="headerImageInput"
+                            accept="image/*"
+                            onchange="replaceSiteImage('headerImage', this)">
+                    </div>
+                    <div class="form-group">
+                        <label>Mô tả trang chủ</label>
+                        <textarea id="headerSubtitleInput"
+                            placeholder="Nhập mô tả"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Mô tả dịch vụ</label>
+                        <textarea id="servicesSubtitleInput"
+                            placeholder="Nhập mô tả dịch vụ"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Mô tả thư viện ảnh</label>
+                        <textarea id="gallerySubtitleInput"
+                            placeholder="Nhập mô tả thư viện ảnh"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh About (về chúng tôi)</label>
+                        <input type="file" id="aboutImageInput" accept="image/*"
+                            onchange="replaceSiteImage('aboutImage', this)">
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh dịch vụ 1</label>
+                        <input type="file" id="serviceImg1Input"
+                            accept="image/*"
+                            onchange="replaceSiteImage('serviceImg1', this)">
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh dịch vụ 2</label>
+                        <input type="file" id="serviceImg2Input"
+                            accept="image/*"
+                            onchange="replaceSiteImage('serviceImg2', this)">
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh dịch vụ 3</label>
+                        <input type="file" id="serviceImg3Input"
+                            accept="image/*"
+                            onchange="replaceSiteImage('serviceImg3', this)">
+                    </div>
+                    <div class="form-group">
+                        <label>Ảnh dịch vụ 4</label>
+                        <input type="file" id="serviceImg4Input"
+                            accept="image/*"
+                            onchange="replaceSiteImage('serviceImg4', this)">
+                    </div>
+                    <button onclick="saveContent()" class="save-btn">Lưu Nội
+                        Dung</button>
+                </div>
+
+                <!-- Gallery Management -->
+                <div id="galleryTab" class="tab-content">
+                    <h3>Quản Lý Thư Viện Ảnh</h3>
+                    <div class="gallery-upload">
+                        <label>Tải lên ảnh mới</label>
+                        <input type="file" id="galleryFileInput"
+                            accept="image/*" multiple>
+                        <button onclick="uploadGalleryImages()"
+                            class="save-btn">Tải Lên</button>
+                    </div>
+                    <div class="current-gallery">
+                        <h4>Ảnh hiện tại</h4>
+                        <div id="currentGalleryList"
+                            class="current-gallery-list">
+                            <!-- Danh sách ảnh hiện tại sẽ được thêm bằng JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Management -->
+                <div id="contactTab" class="tab-content">
+                    <h3>Chỉnh Sửa Thông Tin Liên Hệ</h3>
+                    <div class="form-group">
+                        <label>Số điện thoại 1</label>
+                        <input type="text" id="phone1Input"
+                            placeholder="Nhập số điện thoại thứ 1">
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại 2</label>
+                        <input type="text" id="phone2Input"
+                            placeholder="Nhập số điện thoại thứ 2">
+                    </div>
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input type="text" id="addressInput"
+                            placeholder="Nhập địa chỉ">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="emailInput"
+                            placeholder="Nhập email">
+                    </div>
+                    <button onclick="saveContact()" class="save-btn">Lưu Thông
+                        Tin</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Xưởng Dịch Vụ Ô Tô Phương Đông. Bảo lưu mọi
+                    quyền.</p>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
