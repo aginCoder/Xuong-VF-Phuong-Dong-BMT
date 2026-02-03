@@ -11,8 +11,8 @@ const DEFAULT_DATA = {
 
 // Tài khoản demo
 const ADMIN_CREDENTIALS = {
-    username: 'admin',
-    password: '123456'
+    username: 'adminphuongdong',
+    password: 'hoang12345@'
 };
 
 // ===== Initialize Page =====
@@ -245,6 +245,9 @@ function logout() {
         section.style.display = 'block';
     });
     document.querySelector('footer').style.display = 'block';
+    
+    // Show admin button in menu
+    document.querySelector('.admin-btn').style.display = 'block';
 }
 
 function showAdminDashboard() {
@@ -254,6 +257,9 @@ function showAdminDashboard() {
         section.style.display = 'none';
     });
     document.querySelector('footer').style.display = 'none';
+    
+    // Hide admin button in menu
+    document.querySelector('.admin-btn').style.display = 'none';
     
     // Show admin dashboard
     document.getElementById('adminDashboard').style.display = 'block';
