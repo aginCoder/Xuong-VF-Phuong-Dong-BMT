@@ -4,7 +4,8 @@ const DEFAULT_DATA = {
     headerSubtitle: 'Chuyên sửa chữa, bảo dưỡng và nâng cấp xe ô tô',
     servicesSubtitle: 'Cung cấp các dịch vụ chất lượng cao cho xe ô tô của bạn',
     gallerySubtitle: 'Xem hình ảnh các dự án của chúng tôi',
-    contactPhone: '02623 777 999',
+    contactPhone1: '02623 777 999',
+    contactPhone2: '0888 623 623',
     contactAddress: '569 Lê Duẩn, Phường Buôn Ma Thuột, Đắk Lắk',
     contactEmail: 'phuongdong@email.com'
 };
@@ -38,10 +39,10 @@ function loadDataFromStorage() {
     if (gallerySubtitle) gallerySubtitle.textContent = storedData.gallerySubtitle || DEFAULT_DATA.gallerySubtitle;
     
     const contactPhone1 = document.getElementById('contactPhone1');
-    if (contactPhone1) contactPhone1.textContent = storedData.contactPhone1 || DEFAULT_DATA.contactPhone;
+    if (contactPhone1) contactPhone1.textContent = storedData.contactPhone1 || DEFAULT_DATA.contactPhone1;
 
     const contactPhone2 = document.getElementById('contactPhone2');
-    if (contactPhone2) contactPhone2.textContent = storedData.contactPhone2 || DEFAULT_DATA.contactPhone;
+    if (contactPhone2) contactPhone2.textContent = storedData.contactPhone2 || DEFAULT_DATA.contactPhone2;
     
     const contactAddress = document.getElementById('contactAddress');
     if (contactAddress) contactAddress.textContent = storedData.contactAddress || DEFAULT_DATA.contactAddress;
