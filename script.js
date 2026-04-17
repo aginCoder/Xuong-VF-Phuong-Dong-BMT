@@ -7,7 +7,7 @@ const DEFAULT_DATA = {
     contactPhone1: '02623 777 999',
     contactPhone2: '0888 623 623',
     contactAddress: '569 Lê Duẩn, Phường Buôn Ma Thuột, Đắk Lắk',
-    contactEmail: 'phuongdong@email.com'
+    contactEmail: 'xuongvinfastphuongdong@gmail.com'
 };
 
 // Tài khoản demo
